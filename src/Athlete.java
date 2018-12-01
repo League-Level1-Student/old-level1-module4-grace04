@@ -16,11 +16,12 @@ public class Athlete {
 
     public static void main(String[] args) {
     //create two athletes
-    Athlete john = new Athlete("John", 15);
-    Athlete geor = new Athlete("George", 10);
+    		Athlete john = new Athlete("John", 15);
+    		Athlete geor = new Athlete("George", 10);
     	
     	//print their names, bibNumbers, and the location of their race.
-    System.out.println(john.name + nextBibNumber + raceLocation);
-    System.out.println(geor.name + nextBibNumber + raceLocation);
+    		System.out.println(john.name + " " + nextBibNumber + " " + raceLocation);
+    		nextBibNumber++;
+    		System.out.println(geor.name + " " + nextBibNumber + " " + raceLocation);
     }
 }
