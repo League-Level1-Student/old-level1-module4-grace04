@@ -77,9 +77,11 @@ public class Jukebox implements Runnable, ActionListener {
 		// TODO Auto-generated method stub
 		JButton buttonPressed = (JButton) e.getSource();
 		if (buttonPressed.equals(gf)) {
+			ng.stop();
 			so.play();
 		}
 		else if (buttonPressed.equals(sa)) {
+			so.stop();
 			ng.play();
 		}
 	}

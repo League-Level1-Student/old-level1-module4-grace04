@@ -76,7 +76,7 @@ public class MediaPalace {
 		}
 	}
 
-	/* If you want to use an mp3, you must first convert it to a .wav file on http://media.io */
+	/* If you want to use an mp3, you must first convert it to a .wav file on c */
 	public AudioClip loadSound(String fileName) {
 		return JApplet.newAudioClip(getClass().getResource(fileName));
 	}
